@@ -1,76 +1,59 @@
-<a href="https://www.breatheco.de"><img height="280" align="right" src="https://github.com/4GeeksAcademy/flask-rest-hello/blob/main/docs/assets/badge.png?raw=true"></a>
+# Dparlor - Star Wars Data Model
 
-# Flask Boilerplate for Junior Developers
+Welcome to the Dparlor Star Wars Data Model project! This project provides a comprehensive data model for the Star Wars universe, designed to enhance your understanding of data modeling and improve your coding skills.
 
-Create flask API's in minutes, [📹 watch the video tutorial](https://youtu.be/ORxQ-K3BzQA).
+## Purpose
 
-- [Extensive documentation here](https://start.4geeksacademy.com).
-- Integrated with Pipenv for package managing.
-- Fast deloyment to render.com or heroku with `$ pipenv run deploy`.
-- Use of `.env` file.
-- SQLAlchemy integration for database abstraction.
+The primary objective of this project is to increase your coding ability and knowledge by providing a hands-on experience with data modeling. You will learn how to structure data effectively and create relationships between different entities in the Star Wars universe.
 
-## 1) Installation
+## Features
 
-This template installs itself in a few seconds if you open it for free with Codespaces (recommended) or Gitpod.
-Skip this installation steps and jump to step 2 if you decide to use any of those services.
+- A well-defined data model representing various Star Wars entities such as characters, planets, starships, and vehicles.
+- Clear relationships between entities to illustrate how they interact within the Star Wars universe.
+- Documentation to guide you through the data model and its components.
+- Built with modern data modeling practices for better understanding and learning.
 
-> Important: The boiplerplate is made for python 3.10 but you can change the `python_version` on the Pipfile.
+## Getting Started
 
-The following steps are automatically runned withing gitpod, if you are doing a local installation you have to do them manually:
+To get started with the Dparlor Star Wars Data Model project, follow these steps:
 
-```sh
-pipenv install;
-psql -U root -c 'CREATE DATABASE example;'
-pipenv run init;
-pipenv run migrate;
-pipenv run upgrade;
-```
+### Prerequisites
 
-> Note: Codespaces users can connect to psql by typing: `psql -h localhost -U gitpod example`
+- Basic understanding of data modeling concepts.
+- Familiarity with JavaScript and JSON.
 
-## 2) How to Start coding
+### Installation
 
-There is an example API working with an example database. All your application code should be written inside the `./src/` folder.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Dabeldab/dparlor-miamipt78-starwars-data-model.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd dparlor-miamipt78-starwars-data-model
+   ```
 
-- src/main.py (it's where your endpoints should be coded)
-- src/models.py (your database tables and serialization logic)
-- src/utils.py (some reusable classes and functions)
-- src/admin.py (add your models to the admin and manage your data easily)
+### Usage
 
-For a more detailed explanation, look for the tutorial inside the `docs` folder.
+This data model can be used as a reference for building applications related to the Star Wars universe. You can explore the data structure and relationships to enhance your own projects or simply to learn more about data modeling.
 
-## Remember to migrate every time you change your models
+## Contributing
 
-You have to migrate and upgrade the migrations for every update you make to your models:
+We welcome contributions to improve this project! If you have suggestions or enhancements, please feel free to fork the repository and submit a pull request.
 
-```bash
-$ pipenv run migrate # (to make the migrations)
-$ pipenv run upgrade  # (to update your databse with the migrations)
-```
+### Todos
 
-## Generate a database diagram
+- [ ] Improve documentation for better clarity.
+- [ ] Add more entities to the data model.
+- [ ] Implement example queries to demonstrate data retrieval.
 
-If you want to visualize the structure of your database in the form of a diagram, you can generate it with the following command:
+## License
 
-```bash
-$ pipenv run diagram
-```
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-This command will generate a file with the database diagram based on the models defined in `src/models.py`.
+## Acknowledgments
 
-## Check your API live
+- Thanks to the creators of the Star Wars universe for providing such a rich source of inspiration.
+- Special thanks to the open-source community for their support and contributions.
 
-1. Once you run the `pipenv run start` command your API will start running live and you can open it by clicking in the "ports" tab and then clicking "open browser".
-
-> ✋ If you are working on a coding cloud like [Codespaces](https://docs.github.com/en/codespaces/developing-in-codespaces/forwarding-ports-in-your-codespace#sharing-a-port) or [Gitpod](https://www.gitpod.io/docs/configure/workspaces/ports#configure-port-visibility) make sure that your forwared port is public.
-
-## Publish/Deploy your website!
-
-This boilerplate it's 100% read to deploy with Render.com and Herkou in a matter of minutes. Please read the [official documentation about it](https://start.4geeksacademy.com/deploy).
-
-### Contributors
-
-This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
-
-You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).
+Feel free to reach out if you have any questions or need assistance. Happy coding!
